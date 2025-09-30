@@ -1,15 +1,13 @@
 package dev.group.hexagonal_test.domain.model;
 
 import jakarta.annotation.Nonnull;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 public class User {
     @Nonnull
     private Long id;
